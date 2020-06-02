@@ -4,6 +4,7 @@ from selenium.webdriver import Chrome
 driver = Chrome()
 driver.get("http://the-internet.herokuapp.com/login");
 
+
 username = driver.find_element_by_id("username")
 password = driver.find_element_by_id("password")
 
