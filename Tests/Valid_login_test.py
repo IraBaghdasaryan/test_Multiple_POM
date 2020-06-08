@@ -24,5 +24,17 @@ class TestLogin():
         login.logout_from()
         assert login.successful_logout() == True
 
+    def test_invalid_wrong_pass(self, login):
+        login.with_("tomsmith", "Not very super password!")
+        assert login.failure_message_present() == True
+
+    def test_invalid_wrond_username(self, login):
+        login.with_("TomSmith", "SuperSecretePassword!")
+        assert login.failure_message_present() == True
+
+    def test_invalid_empty (self, login):
+        login.with_("","")
+        assert login.failure_message_present() == True
+
 
 
