@@ -1,0 +1,17 @@
+Index: test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\nfrom selenium.webdriver import Chrome\n\ndriver = Chrome()\ndriver.get(\"http://the-internet.herokuapp.com/login\");\n\nusername = driver.find_element_by_id(\"username\")\npassword = driver.find_element_by_id(\"password\")\n\nusername.send_keys(\"tomsmith\")\npassword.send_keys(\"SuperSecretPassword!\")\n\n\nlogin1 = driver.find_element_by_css_selector('#login > button > i')\n\nlogin1.click()
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test.py	(revision 0f619d74d04de785b11e72ac20be8ae8afb1254a)
++++ test.py	(date 1590561184205)
+@@ -13,4 +13,5 @@
+ 
+ login1 = driver.find_element_by_css_selector('#login > button > i')
+ 
+-login1.click()
+\ No newline at end of file
++login1.click()
++

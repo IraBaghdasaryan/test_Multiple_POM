@@ -16,15 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d608e2c-c591-4bf7-bbd6-c3a041ea2775" name="Default Changelist" comment="Tests">
-      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Location Strategy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/_init_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invalid_login_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="8d608e2c-c591-4bf7-bbd6-c3a041ea2775" name="Default Changelist" comment="Tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591104940624</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests">
+      <created>1591577032244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591577032244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,11 +607,11 @@
     <state x="530" y="338" key="Github.CreateGistDialog/0.23.1440.821@0.23.1440.821" timestamp="1591576625802" />
     <state x="530" y="339" key="Github.CreateGistDialog/0.23.1440.825@0.23.1440.825" timestamp="1590054475621" />
     <state x="530" y="340" key="Github.CreateGistDialog/0.23.1440.827@0.23.1440.827" timestamp="1590056583157" />
-    <state x="733" y="375" key="Github.ShareDialog" timestamp="1591576187706">
+    <state x="733" y="375" key="Github.ShareDialog" timestamp="1591577535694">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="733" y="373" key="Github.ShareDialog/0.23.1440.816@0.23.1440.816" timestamp="1590132192156" />
-    <state x="733" y="375" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1591576187706" />
+    <state x="733" y="375" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1591577535694" />
     <state width="933" height="371" key="GridCell.Tab.0.bottom" timestamp="1591575666985">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -804,11 +803,11 @@
     <state x="568" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.814@0.23.1440.814" timestamp="1590047591676" />
     <state x="568" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.816@0.23.1440.816" timestamp="1590048136007" />
     <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.821@0.23.1440.821" timestamp="1591572633746" />
-    <state x="656" y="392" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591576840532">
+    <state x="656" y="392" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591577061605">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="656" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.816@0.23.1440.816" timestamp="1590129554020" />
-    <state x="656" y="392" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1591576840532" />
+    <state x="656" y="392" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1591577061605" />
     <state x="656" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.826@0.23.1440.826" timestamp="1591104953887" />
     <state x="854" y="114" width="586" height="735" key="find.popup" timestamp="1591103910863">
       <screen x="0" y="23" width="1440" height="826" />

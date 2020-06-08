@@ -1,0 +1,5 @@
+1591171485761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_v/bfnbwpr10pd22zfrkx8c08b80000gn/T/rust_mozprofileJb1KTV"
+1591171489147	Marionette	INFO	Listening on port 49673
+1591171489237	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: Signature verified failed for main/search-config. Retry from scratch
+1591174505803	Marionette	INFO	Stopped listening on port 49673
