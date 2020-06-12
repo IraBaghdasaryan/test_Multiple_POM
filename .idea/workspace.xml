@@ -17,9 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d608e2c-c591-4bf7-bbd6-c3a041ea2775" name="Default Changelist" comment="Tests">
+      <change afterPath="$PROJECT_DIR$/Pages/Secure_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/dynamic_load_1_page" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/dynamic_loading_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Valid_login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Valid_login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/invalid_login_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resource/Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resource/Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/login_test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Setup Script" />
         <option value="Python Script" />
       </list>
     </option>
@@ -42,7 +54,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -62,19 +73,51 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="testing" sdk-home="$USER_HOME$/testing/bin/python">
+        <option name="mySdkHome" value="$USER_HOME$/testing/bin/python" />
+        <option name="myModuleName" value="testing" />
+      </console-settings>
+    </option>
+    <option name="myShowDebugConsoleByDefault" value="false" />
+    <option name="myShowVariablesByDefault" value="false" />
+    <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pages" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Tests" />
       <recent name="$PROJECT_DIR$/Pages1" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vendor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in Valid_login_test.py">
+  <component name="RunManager" selected="Python.test_login_test">
+    <configuration name="Dropdown_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/Dropdown_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Location Strategy" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,27 +139,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Valid_login_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/Valid_login_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,27 +152,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pages1/login_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/login_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,6 +223,110 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_ex_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/test_ex_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/test_login_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Tox" factoryName="Tox" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <arguments>
+        <array />
+      </arguments>
+      <runOnlyEnvs>
+        <array />
+      </runOnlyEnvs>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_login_test.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests run test" type="tests" factoryName="Unittests">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests runner" type="tests" factoryName="Unittests">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Tests.test_login_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="invalid_login_test" type="tests" factoryName="py.test">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,23 +391,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Tests.loginlogout_test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.loginlogout_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for invalid_login_test.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Tests.test_login_test.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,23 +403,39 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;invalid_login_test.TestLogin&quot;" />
+      <option name="_new_target" value="&quot;Tests.test_login_test.TestLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in Valid_login_test.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+    <configuration name="pytest idropdown" type="tests" factoryName="py.test">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/Valid_login_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in / (1" type="tests" factoryName="py.test">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -350,7 +455,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in invalid_login_test.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+    <configuration name="pytest in /Users/bellabaghdasaryan/PycharmProjects/testing/Tests/invalid_login_test.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -366,19 +471,83 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in loginlogout_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in /Users/bellabaghdasaryan/PycharmProjects/testing/Tests/test_Dropdown_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/loginlogout_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_Dropdown_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in ex" type="tests" factoryName="py.test">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_ex_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in new" type="tests" factoryName="py.test">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_login_test.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest test_login" type="tests" factoryName="py.test">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/testing/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_login_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -386,9 +555,9 @@
       <module name="testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
@@ -415,31 +584,40 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.logout_page" />
       <item itemvalue="Python.Location Strategy" />
-      <item itemvalue="Python.login_test" />
       <item itemvalue="Python.login_page" />
-      <item itemvalue="Python.logout_test" />
       <item itemvalue="Python.loginlogout_test" />
-      <item itemvalue="Python.Valid_login_test" />
-      <item itemvalue="Python tests.pytest for Tests.invalid_login_test" />
-      <item itemvalue="Python tests.pytest in /" />
+      <item itemvalue="Python.logout_page" />
+      <item itemvalue="Python.logout_test" />
+      <item itemvalue="Python.test_login_test" />
+      <item itemvalue="Python.Dropdown_test" />
+      <item itemvalue="Python.test_ex_test" />
+      <item itemvalue="Python tests.Unittests in test_login_test.py" />
+      <item itemvalue="Python tests.pytest in new" />
+      <item itemvalue="Python tests.pytest in / (1" />
+      <item itemvalue="Python tests.pytest in ex" />
+      <item itemvalue="Python tests.pytest idropdown" />
+      <item itemvalue="Python tests.pytest test_login" />
       <item itemvalue="Python tests.invalid_login_test" />
-      <item itemvalue="Python tests.pytest" />
       <item itemvalue="Python tests.pytest for Loginnew_test.Test_Login" />
-      <item itemvalue="Python tests.pytest in Valid_login_test.py" />
+      <item itemvalue="Python tests.pytest for Tests.invalid_login_test" />
       <item itemvalue="Python tests.pytest for Tests.invalid_login_test.TestLogin" />
-      <item itemvalue="Python tests.pytest in invalid_login_test.py" />
-      <item itemvalue="Python tests.pytest in loginlogout_test.py" />
-      <item itemvalue="Python tests.pytest for Tests.loginlogout_test" />
-      <item itemvalue="Python tests.pytest for invalid_login_test.TestLogin" />
+      <item itemvalue="Python tests.pytest in /Users/bellabaghdasaryan/PycharmProjects/testing/Tests/invalid_login_test.py" />
+      <item itemvalue="Python tests.pytest in /" />
+      <item itemvalue="Python tests.pytest" />
+      <item itemvalue="Python tests.Unittests runner" />
+      <item itemvalue="Python tests.Unittests run test" />
+      <item itemvalue="Python tests.pytest in test_login_test.py" />
+      <item itemvalue="Python tests.pytest in /Users/bellabaghdasaryan/PycharmProjects/testing/Tests/test_Dropdown_test.py" />
+      <item itemvalue="Python tests.pytest for Tests.test_login_test.TestLogin" />
+      <item itemvalue="tox.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Valid_login_test" />
-        <item itemvalue="Python tests.pytest for invalid_login_test.TestLogin" />
-        <item itemvalue="Python tests.pytest in loginlogout_test.py" />
-        <item itemvalue="Python tests.pytest for Tests.loginlogout_test" />
+        <item itemvalue="Python.test_ex_test" />
+        <item itemvalue="Python.Dropdown_test" />
+        <item itemvalue="Python tests.pytest for Tests.test_login_test.TestLogin" />
+        <item itemvalue="Python tests.pytest in /Users/bellabaghdasaryan/PycharmProjects/testing/Tests/test_Dropdown_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +674,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591577809335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tests">
+      <created>1591603930897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591603930897</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tests">
+      <created>1591604149565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591604149565</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tests">
+      <created>1591605463316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591605463316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,10 +729,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="280" key="#Chrome_Settings" timestamp="1590994524106">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="529" y="281" key="#Chrome_Settings" timestamp="1591781526896">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="529" y="280" key="#Chrome_Settings/0.23.1440.814@0.23.1440.814" timestamp="1590994524106" />
+    <state x="529" y="281" key="#Chrome_Settings/0.23.1440.816@0.23.1440.816" timestamp="1591781526896" />
+    <state x="552" y="44" key="#Dropdown_test" timestamp="1591878155254">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="552" y="44" key="#Dropdown_test/0.23.1440.822@0.23.1440.822" timestamp="1591878155254" />
     <state x="480" y="109" width="800" height="717" key="#Intentions" timestamp="1591219765964">
       <screen x="0" y="23" width="1440" height="842" />
     </state>
@@ -550,13 +754,20 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="642" y="315" key="#Scopes/0.23.1440.814@0.23.1440.814" timestamp="1590758520897" />
-    <state x="341" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591573612515">
+    <state x="555" y="160" key="#Servers" timestamp="1591877938582">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="555" y="160" key="#Servers/0.23.1440.822@0.23.1440.822" timestamp="1591877938582" />
+    <state x="210" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592001454816">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="355" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.813@0.23.1440.813" timestamp="1591519033998" />
     <state x="260" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.814@0.23.1440.814" timestamp="1591387666088" />
-    <state x="369" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1591572322861" />
-    <state x="341" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1591573612515" />
+    <state x="274" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.816@0.23.1440.816" timestamp="1591861313830" />
+    <state x="210" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1592001454816" />
+    <state x="231" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1591911067068" />
+    <state x="231" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1591910714134" />
+    <state x="52" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1591896956813" />
     <state x="253" y="399" width="1112" height="437" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591167637106">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -579,6 +790,15 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="597" y="177" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.816@0.23.1440.816" timestamp="1591398453443" />
+    <state x="762" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591905153812">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="762" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.822@0.23.1440.822" timestamp="1591905153812" />
+    <state x="915" y="442" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1591896951086" />
+    <state x="609" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591945643511">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="609" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1591945643511" />
     <state x="0" y="69" key="#invalid_login_test" timestamp="1591369914718">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -597,19 +817,23 @@
     </state>
     <state x="534" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.813@0.23.1440.813" timestamp="1591467945976" />
     <state x="534" y="385" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.825@0.23.1440.825" timestamp="1591094102618" />
-    <state x="180" y="273" width="1152" height="652" key="DiffContextDialog" timestamp="1591521972118">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="180" y="185" width="1152" height="659" key="DiffContextDialog" timestamp="1591996763754">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="180" y="273" width="1112" height="439" key="DiffContextDialog/0.23.1440.813@0.23.1440.813" timestamp="1591521972118" />
     <state x="180" y="187" width="1152" height="652" key="DiffContextDialog/0.23.1440.816@0.23.1440.816" timestamp="1591397201650" />
+    <state x="180" y="185" width="1152" height="659" key="DiffContextDialog/0.23.1440.821@0.23.1440.821" timestamp="1591996564978" />
+    <state x="180" y="185" width="1152" height="659" key="DiffContextDialog/0.23.1440.822@0.23.1440.822" timestamp="1591996763754" />
+    <state x="180" y="186" width="1152" height="661" key="DiffContextDialog/0.23.1440.824@0.23.1440.824" timestamp="1591871018980" />
     <state x="180" y="277" width="1112" height="446" key="DiffContextDialog/0.23.1440.825@0.23.1440.825" timestamp="1591108370252" />
     <state x="180" y="279" width="1112" height="449" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1591119950195" />
     <state x="180" y="275" width="1112" height="450" key="DiffContextDialog/0.23.1440.834@0.23.1440.834" timestamp="1591120656134" />
-    <state x="663" y="135" key="EnvironmentVariablesDialog" timestamp="1591386774301">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="663" y="136" key="EnvironmentVariablesDialog" timestamp="1591780838101">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="663" y="135" key="EnvironmentVariablesDialog/0.23.1440.813@0.23.1440.813" timestamp="1590997392629" />
     <state x="663" y="135" key="EnvironmentVariablesDialog/0.23.1440.814@0.23.1440.814" timestamp="1591386774301" />
+    <state x="663" y="136" key="EnvironmentVariablesDialog/0.23.1440.821@0.23.1440.821" timestamp="1591780838101" />
     <state x="518" y="147" key="FileChooserDialogImpl" timestamp="1591572505347">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -627,19 +851,20 @@
     </state>
     <state x="733" y="373" key="Github.ShareDialog/0.23.1440.816@0.23.1440.816" timestamp="1590132192156" />
     <state x="733" y="375" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1591577535694" />
-    <state width="933" height="371" key="GridCell.Tab.0.bottom" timestamp="1591603805127">
+    <state width="990" height="200" key="GridCell.Tab.0.bottom" timestamp="1592005867561">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590052319726" />
     <state width="933" height="371" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1591536367752" />
     <state width="933" height="372" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1591387713336" />
-    <state width="933" height="371" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591603675212" />
-    <state width="933" height="371" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1591603805127" />
-    <state width="933" height="259" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1591573573086" />
-    <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1591118876647" />
-    <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1591168508936" />
-    <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1591171484422" />
-    <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591176221146" />
+    <state width="928" height="371" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591861669406" />
+    <state width="990" height="200" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1592005867561" />
+    <state width="990" height="200" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1592002645820" />
+    <state width="782" height="200" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1591956214510" />
+    <state width="928" height="371" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1591878703623" />
+    <state width="990" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1591971594626" />
+    <state width="928" height="371" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1591896684557" />
+    <state width="1379" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591910504901" />
     <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1591176268084" />
     <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1591176691490" />
     <state width="1291" height="283" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1591176705904" />
@@ -657,19 +882,20 @@
     <state width="933" height="376" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1591222071599" />
     <state width="933" height="376" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1591221753279" />
     <state width="933" height="376" key="GridCell.Tab.0.bottom/0.23.1440.844@0.23.1440.844" timestamp="1591219652539" />
-    <state width="933" height="371" key="GridCell.Tab.0.center" timestamp="1591603805126">
+    <state width="990" height="200" key="GridCell.Tab.0.center" timestamp="1592005867560">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590052319724" />
     <state width="933" height="371" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1591536367751" />
     <state width="933" height="372" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1591387713335" />
-    <state width="933" height="371" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1591603675211" />
-    <state width="933" height="371" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1591603805126" />
-    <state width="933" height="259" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1591573573085" />
-    <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1591118876646" />
-    <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1591168508935" />
-    <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1591171484422" />
-    <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1591176221146" />
+    <state width="928" height="371" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1591861669405" />
+    <state width="990" height="200" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1592005867560" />
+    <state width="990" height="200" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1592002645819" />
+    <state width="782" height="200" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1591956214509" />
+    <state width="928" height="371" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1591878703622" />
+    <state width="990" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1591971594625" />
+    <state width="928" height="371" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1591896684555" />
+    <state width="1379" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1591910504900" />
     <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1591176268083" />
     <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1591176691489" />
     <state width="1291" height="283" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1591176705904" />
@@ -687,19 +913,20 @@
     <state width="933" height="376" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1591222071596" />
     <state width="933" height="376" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1591221753278" />
     <state width="933" height="376" key="GridCell.Tab.0.center/0.23.1440.844@0.23.1440.844" timestamp="1591219652539" />
-    <state width="933" height="371" key="GridCell.Tab.0.left" timestamp="1591603805125">
+    <state width="990" height="200" key="GridCell.Tab.0.left" timestamp="1592005867559">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590052319723" />
     <state width="933" height="371" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1591536367751" />
     <state width="933" height="372" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1591387713335" />
-    <state width="933" height="371" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1591603675208" />
-    <state width="933" height="371" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1591603805125" />
-    <state width="933" height="259" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1591573573085" />
-    <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1591118876646" />
-    <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1591168508935" />
-    <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1591171484421" />
-    <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1591176221145" />
+    <state width="928" height="371" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1591861669404" />
+    <state width="990" height="200" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1592005867559" />
+    <state width="990" height="200" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1592002645818" />
+    <state width="782" height="200" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1591956214508" />
+    <state width="928" height="371" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1591878703622" />
+    <state width="990" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1591971594625" />
+    <state width="928" height="371" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1591896684554" />
+    <state width="1379" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1591910504900" />
     <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1591176268082" />
     <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1591176691489" />
     <state width="1291" height="283" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1591176705903" />
@@ -717,19 +944,20 @@
     <state width="933" height="376" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1591222071595" />
     <state width="933" height="376" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1591221753278" />
     <state width="933" height="376" key="GridCell.Tab.0.left/0.23.1440.844@0.23.1440.844" timestamp="1591219652538" />
-    <state width="933" height="371" key="GridCell.Tab.0.right" timestamp="1591603805126">
+    <state width="990" height="200" key="GridCell.Tab.0.right" timestamp="1592005867560">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590052319725" />
     <state width="933" height="371" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1591536367752" />
     <state width="933" height="372" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1591387713335" />
-    <state width="933" height="371" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1591603675211" />
-    <state width="933" height="371" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1591603805126" />
-    <state width="933" height="259" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1591573573086" />
-    <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1591118876647" />
-    <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1591168508936" />
-    <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1591171484422" />
-    <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1591176221146" />
+    <state width="928" height="371" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1591861669405" />
+    <state width="990" height="200" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1592005867560" />
+    <state width="990" height="200" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1592002645819" />
+    <state width="782" height="200" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1591956214509" />
+    <state width="928" height="371" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1591878703623" />
+    <state width="990" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1591971594625" />
+    <state width="928" height="371" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1591896684556" />
+    <state width="1379" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1591910504900" />
     <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1591176268083" />
     <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1591176691490" />
     <state width="1291" height="283" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1591176705904" />
@@ -747,51 +975,66 @@
     <state width="933" height="376" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1591222071597" />
     <state width="933" height="376" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1591221753279" />
     <state width="933" height="376" key="GridCell.Tab.0.right/0.23.1440.844@0.23.1440.844" timestamp="1591219652539" />
-    <state width="933" height="259" key="GridCell.Tab.1.bottom" timestamp="1591573573089">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="928" height="259" key="GridCell.Tab.1.bottom" timestamp="1591909347090">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590051817024" />
     <state width="933" height="259" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1591517550109" />
     <state width="933" height="260" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1591343364454" />
-    <state width="933" height="260" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591401859257" />
-    <state width="933" height="259" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1591573573089" />
-    <state width="933" height="259" key="GridCell.Tab.1.center" timestamp="1591573573087">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="933" height="259" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591698471946" />
+    <state width="933" height="259" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1591735996687" />
+    <state width="928" height="259" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1591904920086" />
+    <state width="928" height="259" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1591909347090" />
+    <state width="928" height="259" key="GridCell.Tab.1.bottom/0.23.1440.824@0.23.1440.824" timestamp="1591871037424" />
+    <state width="928" height="259" key="GridCell.Tab.1.center" timestamp="1591909347089">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590051817023" />
     <state width="933" height="259" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1591517550108" />
     <state width="933" height="260" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1591343364453" />
-    <state width="933" height="260" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1591401859256" />
-    <state width="933" height="259" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1591573573087" />
-    <state width="933" height="259" key="GridCell.Tab.1.left" timestamp="1591573573086">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="933" height="259" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1591698471945" />
+    <state width="933" height="259" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1591735996686" />
+    <state width="928" height="259" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1591904920084" />
+    <state width="928" height="259" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1591909347089" />
+    <state width="928" height="259" key="GridCell.Tab.1.center/0.23.1440.824@0.23.1440.824" timestamp="1591871037423" />
+    <state width="928" height="259" key="GridCell.Tab.1.left" timestamp="1591909347089">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590051817022" />
     <state width="933" height="259" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1591517550108" />
     <state width="933" height="260" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1591343364452" />
-    <state width="933" height="260" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1591401859255" />
-    <state width="933" height="259" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1591573573086" />
-    <state width="933" height="259" key="GridCell.Tab.1.right" timestamp="1591573573088">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="933" height="259" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1591698471944" />
+    <state width="933" height="259" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1591735996685" />
+    <state width="928" height="259" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1591904920083" />
+    <state width="928" height="259" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1591909347089" />
+    <state width="928" height="259" key="GridCell.Tab.1.left/0.23.1440.824@0.23.1440.824" timestamp="1591871037423" />
+    <state width="928" height="259" key="GridCell.Tab.1.right" timestamp="1591909347090">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590051817023" />
     <state width="933" height="259" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1591517550109" />
     <state width="933" height="260" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1591343364454" />
-    <state width="933" height="260" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1591401859256" />
-    <state width="933" height="259" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1591573573088" />
+    <state width="933" height="259" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1591698471945" />
+    <state width="933" height="259" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1591735996686" />
+    <state width="928" height="259" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1591904920085" />
+    <state width="928" height="259" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1591909347090" />
+    <state width="928" height="259" key="GridCell.Tab.1.right/0.23.1440.824@0.23.1440.824" timestamp="1591871037424" />
     <state x="0" y="255" key="RollbackChangesDialog" timestamp="1591521978734">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="0" y="255" key="RollbackChangesDialog/0.23.1440.813@0.23.1440.813" timestamp="1591521978734" />
     <state x="0" y="258" key="RollbackChangesDialog/0.23.1440.816@0.23.1440.816" timestamp="1591353495300" />
     <state x="0" y="306" key="RollbackChangesDialog/0.23.1440.828@0.23.1440.828" timestamp="1591098191483" />
-    <state x="368" y="70" key="SettingsEditor" timestamp="1591576569113">
+    <state x="368" y="70" key="SettingsEditor" timestamp="1592001316300">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="78" y="114" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1591521932816" />
     <state x="368" y="70" key="SettingsEditor/0.23.1440.814@0.23.1440.814" timestamp="1591387156202" />
-    <state x="368" y="70" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1591398046304" />
-    <state x="368" y="70" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1591576569113" />
+    <state x="411" y="85" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1591858823828" />
+    <state x="368" y="70" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1592001316300" />
+    <state x="284" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1591909055112" />
+    <state x="316" y="124" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1591909995190" />
+    <state x="250" y="126" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1591896487390" />
     <state x="368" y="71" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1591171201143" />
     <state x="368" y="71" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1591096654512" />
     <state x="368" y="71" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1591176266192" />
@@ -806,18 +1049,24 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="734" y="390" key="VCS.EditChangelistDialog/0.23.1440.816@0.23.1440.816" timestamp="1590133081848" />
-    <state x="336" y="241" key="Vcs.Push.Dialog.v2" timestamp="1591578197740">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="336" y="240" key="Vcs.Push.Dialog.v2" timestamp="1591605551063">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
+    <state x="336" y="240" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1591605551063" />
     <state x="336" y="241" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1591578197740" />
     <state x="336" y="244" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1590611070296" />
-    <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591572633746">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="340" y="141" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1591877866618">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="340" y="141" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.23.1440.822@0.23.1440.822" timestamp="1591877866618" />
+    <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591896968270">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.813@0.23.1440.813" timestamp="1591001779385" />
     <state x="568" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.814@0.23.1440.814" timestamp="1590047591676" />
     <state x="568" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.816@0.23.1440.816" timestamp="1590048136007" />
     <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.821@0.23.1440.821" timestamp="1591572633746" />
+    <state x="568" y="71" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.825@0.23.1440.825" timestamp="1591896968270" />
     <state x="656" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591603983366">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -833,11 +1082,26 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="488" y="231" key="git4idea.merge.GitMergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1591108196053" />
-    <state x="462" y="161" width="670" height="677" key="search.everywhere.popup" timestamp="1591080425844">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="490" y="228" key="git4idea.merge.GitPullDialog" timestamp="1591605524653">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="490" y="228" key="git4idea.merge.GitPullDialog/0.23.1440.816@0.23.1440.816" timestamp="1591605524653" />
+    <state x="462" y="162" width="670" height="684" key="search.everywhere.popup" timestamp="1591973410826">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="462" y="161" width="670" height="677" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1591080425844" />
     <state x="462" y="161" width="670" height="676" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1590045210786" />
+    <state x="462" y="162" width="670" height="684" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1591973410826" />
     <state x="462" y="163" width="670" height="686" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1590055395839" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pages/login_page.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
