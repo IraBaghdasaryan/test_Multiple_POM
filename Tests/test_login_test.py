@@ -4,7 +4,7 @@ from Pages.login_page import LoginPage
 from Pages.Secure_page import SecurePage
 from Pages.home_page import HomePage
 from Pages.dynamic_loading_page import DynamicLoad
-from Pages.d import DynamicLoadex1
+from Pages.dynamic_load_1_page import DynamicLoadex1
 import time
 
 
